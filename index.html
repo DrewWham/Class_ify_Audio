@@ -63,7 +63,7 @@
             }
         });
 
-        var socket = new WebSocket("ws:192.168.1.111:8090/ws");
+        var socket = new WebSocket("ws://192.168.1.111:8090/ws");
 
         socket.onmessage = function (message) {
             // update the text display
