@@ -2,7 +2,7 @@
 A Raspberry Pi based audio classification algorithm. Code forked from http://www.aicbt.com/raspberry-pi-sleep-monitor/ 
 
 
-# make sure everything is up to date
+"#"make sure everything is up to date
 sudo apt-get update
 sudo apt-get upgrade
  
