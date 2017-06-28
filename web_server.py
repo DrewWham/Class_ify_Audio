@@ -10,7 +10,7 @@ import tornado.gen
 from multiprocessing.connection import Client
 
 AUDIO_SERVER_ADDRESS = ('localhost', 6000)
-WEB_SERVER_ADDRESS = ('0.0.0.0', 8090)
+WEB_SERVER_ADDRESS = ('192.168.1.111', 8090)
 
 # The highest (practical) volume for the microphone, which is used to normalize the signal
 #  This depends on: microphone sensitivity, distance to crib, amount of smoothing
